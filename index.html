@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#160f19">
+<title>For Antel Hayat — From Rehan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=Great+Vibes&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#160f19;--panel:#241923;--pink:#e9a9b8;--rose:#bd7188;--cream:#f8e9e6;--muted:#c8adb8;--gold:#d8b98e}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--cream);font-family:"DM Sans",sans-serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;background:radial-gradient(ellipse at 15% 15%,#62374a55,transparent 40%),radial-gradient(ellipse at 85% 65%,#4b2b4b55,transparent 42%),linear-gradient(145deg,#160f19,#211522 55%,#130e18)}
+.scroll-progress{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,#bd7188,#f3c5cf,#d8b98e);z-index:20;box-shadow:0 0 14px #e9a9b8aa}
+.cursor-glow{position:fixed;width:260px;height:260px;border-radius:50%;pointer-events:none;z-index:0;background:radial-gradient(circle,#e9a9b812,transparent 68%);transform:translate(-50%,-50%);opacity:.65}
+.noise{position:fixed;inset:0;pointer-events:none;opacity:.055;z-index:5;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.6'/%3E%3C/svg%3E")}
+section{padding:105px 22px;position:relative}.wrap{max-width:1040px;margin:auto;text-align:center}.eyebrow{font-size:.65rem;letter-spacing:.35em;text-transform:uppercase;color:var(--gold)}
+h1,h2,h3{font-family:"Playfair Display",serif;font-weight:500}h2{font-size:clamp(2.4rem,6vw,4.6rem);margin:14px 0 20px}p{line-height:1.9;color:#dbc7cf;font-size:.96rem}.script{font-family:"Great Vibes",cursive;color:var(--pink)}
+.hero{min-height:100svh;display:grid;place-items:center;overflow:hidden;padding:40px 20px}
+.orbit{position:absolute;width:min(76vw,680px);aspect-ratio:1;border:1px solid #e9a9b82e;border-radius:50%;box-shadow:0 0 80px #d7779b12,inset 0 0 80px #d7779b0c;animation:spin 38s linear infinite}
+.orbit:before,.orbit:after{content:"";position:absolute;border:1px solid #e9a9b81e;border-radius:50%;inset:9%}.orbit:after{inset:20%}
+@keyframes spin{to{transform:rotate(360deg)}}
+.hero-inner{position:relative;z-index:2;max-width:760px}.hero h1{font-size:clamp(4.2rem,14vw,9rem);line-height:.88;margin:24px 0 20px;text-shadow:0 10px 45px #e58eaa35}
+.hero-sub{max-width:520px;margin:0 auto 32px}.tiny-heart{color:var(--pink);font-size:1.5rem;animation:pulse 1.8s infinite}@keyframes pulse{50%{transform:scale(1.3)}}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border:1px solid #e9a9b879;border-radius:99px;padding:14px 25px;color:#24151f;background:linear-gradient(135deg,#f3c5cf,#bd7188);font-size:.72rem;letter-spacing:.13em;text-transform:uppercase;text-decoration:none;cursor:pointer;box-shadow:0 10px 35px #d7779b30;transition:.3s}
+.btn:hover{transform:translateY(-4px) scale(1.025);box-shadow:0 18px 42px #d7779b48}
+.glass{background:linear-gradient(135deg,#ffffff12,#ffffff04);border:1px solid #ffffff20;box-shadow:0 25px 70px #0005,inset 0 1px #ffffff1a;backdrop-filter:blur(18px);border-radius:24px}
+.message-card{max-width:780px;margin:35px auto 0;padding:clamp(28px,6vw,65px);transform-style:preserve-3d}
+.message-card .letter{font-family:"Playfair Display",serif;font-size:clamp(1.15rem,2.5vw,1.45rem);line-height:1.9;color:#f3dfe4}
+.message-card .letter p{font-family:inherit;font-size:inherit;color:inherit}
+.goldline{width:75px;height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent);margin:24px auto}
+.memories{background:linear-gradient(180deg,transparent,#241723aa,transparent)}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin:42px auto 0;perspective:1100px}
+.polaroid{padding:12px 12px 20px;background:linear-gradient(145deg,#fff5f0,#e8d3d2);color:#533b48;border-radius:5px;box-shadow:0 20px 40px #0006;transform:rotateY(var(--ry)) rotateZ(var(--rz));transition:transform .45s,box-shadow .45s;transform-style:preserve-3d}
+.polaroid:hover{transform:rotateY(0) rotateZ(0) translateY(-12px) scale(1.035);box-shadow:0 30px 55px #0008}
+.photo{height:225px;background:linear-gradient(135deg,#d5a5b2,#f2d9d9 50%,#a9788e);display:grid;place-items:center;text-align:center;color:#694858;font-family:"Playfair Display",serif;font-size:1.1rem;overflow:hidden}
+.photo img{width:100%;height:100%;object-fit:cover;display:block}
+.photo span{padding:15px}.caption{font-family:"Great Vibes",cursive;font-size:1.8rem;margin-top:12px}
+.gallery-note{font-size:.76rem;color:#c7aeba;margin-top:18px}
+.promise-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:40px}
+.promise-card{padding:30px 20px;transform-style:preserve-3d;transition:.35s}
+.promise-card:hover{transform:translateY(-8px) rotateX(4deg);border-color:#e9a9b866}
+.promise-card .icon{font-size:2rem;color:var(--pink)}.promise-card h3{font-size:1.55rem;color:#f3c8d3;margin:14px 0 8px}.promise-card p{font-size:.84rem;margin:0}
+.question{padding:115px 20px;background:radial-gradient(ellipse at center,#66364c66,transparent 65%)}
+.question-card{max-width:760px;margin:auto;padding:clamp(32px,7vw,75px);position:relative;overflow:hidden}
+.question-card:before{content:"♡";position:absolute;font-size:19rem;color:#e9a9b809;right:-20px;top:-100px;pointer-events:none}
+.question-card h2{font-size:clamp(2.7rem,8vw,5.7rem);line-height:1.08}
+.answers{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin-top:28px}
+#response{min-height:38px;margin-top:25px;color:var(--pink);font-family:"Great Vibes",cursive;font-size:2rem}
+footer{text-align:center;padding:30px 15px;color:#a98a9b;font-size:.68rem;letter-spacing:.2em}
+.reveal{opacity:0;transform:translateY(55px) scale(.975);filter:blur(5px);transition:opacity .95s cubic-bezier(.2,.7,.2,1),transform .95s cubic-bezier(.2,.7,.2,1),filter .95s}
+.reveal.visible{opacity:1;transform:translateY(0) scale(1);filter:blur(0)}
+.reveal-left{opacity:0;transform:translateX(-65px);transition:all 1s cubic-bezier(.2,.7,.2,1)}
+.reveal-right{opacity:0;transform:translateX(65px);transition:all 1s cubic-bezier(.2,.7,.2,1)}
+.reveal-left.visible,.reveal-right.visible{opacity:1;transform:translateX(0)}
+.stagger>*{opacity:0;transform:translateY(35px) rotateX(8deg);transition:opacity .75s,transform .75s}
+.stagger.visible>*{opacity:1;transform:translateY(0) rotateX(0)}
+.stagger.visible>*:nth-child(1){transition-delay:.08s}.stagger.visible>*:nth-child(2){transition-delay:.18s}.stagger.visible>*:nth-child(3){transition-delay:.28s}
+.stagger.visible>*:nth-child(4){transition-delay:.38s}.stagger.visible>*:nth-child(5){transition-delay:.48s}.stagger.visible>*:nth-child(6){transition-delay:.58s}
+.section-kicker{display:inline-block;transition:letter-spacing .8s}.visible .section-kicker{letter-spacing:.48em}
+.hero-inner{animation:heroEnter 1.5s cubic-bezier(.2,.8,.2,1) both}
+@keyframes heroEnter{from{opacity:0;transform:translateY(45px) scale(.94);filter:blur(8px)}to{opacity:1;transform:none;filter:blur(0)}}
+.message-card{transition:transform .2s ease-out}
+
+.heart-float{position:fixed;bottom:-40px;z-index:6;pointer-events:none;color:#e9a9b8;animation:rise linear forwards;text-shadow:0 0 15px #e9a9b877}
+@keyframes rise{to{transform:translateY(-110vh) translateX(var(--drift)) rotate(35deg);opacity:0}}
+@media(max-width:700px){section{padding:78px 17px}.gallery{grid-template-columns:repeat(2,1fr);gap:13px}.photo{height:160px}.promise-grid{grid-template-columns:1fr}.polaroid{transform:none}.hero .eyebrow{letter-spacing:.22em}.message-card{border-radius:18px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}.cursor-glow{display:none}}
+
+/* Expanded story sections */
+.story-timeline{max-width:820px;margin:45px auto 0;position:relative;text-align:left}
+.story-timeline:before{content:"";position:absolute;left:24px;top:8px;bottom:8px;width:1px;background:linear-gradient(transparent,#d8b98e,#bd7188,transparent)}
+.timeline-item{position:relative;padding:0 0 34px 75px}
+.timeline-dot{position:absolute;left:15px;top:4px;width:19px;height:19px;border-radius:50%;background:linear-gradient(135deg,#f3c5cf,#bd7188);box-shadow:0 0 22px #e9a9b866;border:4px solid #271a27}
+.timeline-card{padding:23px 25px}
+.timeline-card h3{font-size:1.55rem;color:#f3c8d3;margin:0 0 7px}
+.timeline-card p{margin:0;font-size:.9rem}
+.reasons-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin:40px auto 0;max-width:850px}
+.reason{padding:26px;text-align:left;transition:.4s}
+.reason:hover{transform:translateY(-7px) rotateX(3deg);border-color:#e9a9b866}
+.reason .num{font:2rem "Playfair Display";color:#d8b98e}
+.reason h3{font-size:1.35rem;color:#f3c8d3;margin:7px 0}
+.reason p{font-size:.85rem;margin:0}
+.dreams{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:38px}
+.dream{padding:28px 18px}
+.dream .emoji{font-size:2rem}
+.dream h3{font-size:1.35rem;color:#f3c8d3;margin:12px 0 7px}
+.dream p{font-size:.82rem;margin:0}
+.love-note{max-width:760px;margin:36px auto;padding:clamp(28px,6vw,55px);text-align:center}
+.love-note p{font-family:"Playfair Display",serif;font-size:clamp(1.1rem,2.5vw,1.45rem);line-height:1.9}
+.envelope{width:min(100%,470px);margin:35px auto 0;perspective:1000px;cursor:pointer}
+.envelope-box{height:230px;position:relative;background:linear-gradient(145deg,#b96c83,#713b57);border-radius:12px;box-shadow:0 25px 55px #0006;display:grid;place-items:center;overflow:hidden}
+.envelope-box:before{content:"";position:absolute;inset:0;background:linear-gradient(135deg,#ffffff22,transparent 45%,#0002)}
+.envelope-flap{position:absolute;top:0;left:0;width:100%;height:55%;background:linear-gradient(145deg,#e6aebe,#a85f78);clip-path:polygon(0 0,100% 0,50% 100%);transform-origin:top;transition:transform .8s;z-index:2}
+.envelope.open .envelope-flap{transform:rotateX(180deg)}
+.envelope-seal{position:relative;z-index:3;width:54px;height:54px;border-radius:50%;background:#f7dce1;color:#8e465f;display:grid;place-items:center;font-size:1.5rem;box-shadow:0 5px 18px #0003;transition:.4s}
+.envelope.open .envelope-seal{opacity:0;transform:scale(.5)}
+.envelope-label{position:relative;z-index:3;font:2rem "Great Vibes";color:#fff0f3;margin-top:70px}
+.secret-letter{max-height:0;overflow:hidden;transition:max-height 1s ease,padding .7s ease}
+.envelope.open+.secret-letter{max-height:500px;padding:25px 25px 10px}
+.secret-letter p{font-family:"Playfair Display",serif;color:#f3dfe4;font-size:1.1rem}
+@media(max-width:700px){.reasons-grid,.dreams{grid-template-columns:1fr}.timeline-item{padding-left:58px}.story-timeline:before{left:18px}.timeline-dot{left:9px}.timeline-card{padding:19px}}
+
+
+.photo{height:auto;aspect-ratio:4/5;position:relative;background:#30202d;overflow:hidden}
+.photo img{width:100%;height:100%;object-fit:cover;object-position:center 35%;display:block;transition:transform .7s cubic-bezier(.2,.7,.2,1),filter .7s;cursor:zoom-in}
+.polaroid:hover .photo img{transform:scale(1.08);filter:saturate(1.08)}
+.photo:after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,#1b101000 60%,#1b101033)}
+.lightbox{position:fixed;inset:0;z-index:30;background:#08060def;display:none;align-items:center;justify-content:center;padding:22px;backdrop-filter:blur(14px)}
+.lightbox.show{display:flex;animation:fadeIn .25s ease}
+.lightbox img{max-width:min(92vw,1100px);max-height:88vh;object-fit:contain;border-radius:12px;box-shadow:0 25px 90px #0009}
+.lightbox-close{position:absolute;top:18px;right:22px;border:1px solid #ffffff55;background:#ffffff18;color:white;border-radius:50%;width:44px;height:44px;font-size:1.5rem;cursor:pointer}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+@media(max-width:700px){.photo{height:auto;aspect-ratio:4/5}}
+
+</style></head>
+<body><div class="noise"></div>
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo preview"><button class="lightbox-close" id="lightboxClose" aria-label="Close photo">×</button><img id="lightboxImage" alt="Expanded memory"></div>
+<div class="scroll-progress" id="scrollProgress"></div>
+<div class="cursor-glow" id="cursorGlow"></div>
+<section class="hero" id="home"><div class="orbit"></div><div class="hero-inner wrap">
+<div class="eyebrow">A little universe, made just for you</div>
+<h1 class="script">Antel<br>Hayat</h1>
+<p class="hero-sub">Some feelings deserve more than a message. This little world is my way of telling you what's in my heart.</p>
+<a class="btn" href="#letter">Step inside <span>♡</span></a><div class="tiny-heart" style="margin-top:30px">♥</div>
+</div></section>
+<section id="letter"><div class="wrap reveal"><div class="eyebrow">A letter from Rehan</div><h2>Words from my heart</h2><div class="goldline"></div>
+<div class="message-card glass"><div class="letter">
+<p>Dear Antel Hayat,</p>
+<p>Sometimes, someone comes into your life and makes even ordinary moments feel special. For me, you are that someone. Your name brings a smile to my face, and thoughts of you make my days feel a little brighter.</p>
+<p>I admire you, I appreciate you, and I want you to know that what I feel is sincere. I may not always find the perfect words, but I hope my actions can show you how much you mean to me.</p>
+<p>I promise to value your feelings, respect your choices, listen when you need me, and be honest with you. I don't want to offer empty promises — I want to build something beautiful with patience, trust, laughter, and care.</p>
+<p>Whatever the future brings, I am grateful that you are someone I can hold so dearly in my heart.</p>
+<p class="script" style="font-size:2.6rem">With love, Rehan</p>
+</div></div></div></section>
+<section class="memories" id="memories"><div class="wrap reveal"><div class="eyebrow">Moments worth keeping</div><h2>Our memory gallery</h2><p>These frames are waiting for your favourite photos.</p>
+<div class="gallery stagger">
+<div class="polaroid" style="--ry:-4deg;--rz:-2deg">
+      <div class="photo"><img src="images/memory-1.jpg" alt="Antel Hayat smiling outdoors" loading="lazy" style="object-position:65% 42%"></div>
+      <div class="caption">Your beautiful smile</div>
+    </div>
+<div class="polaroid" style="--ry:4deg;--rz:2deg">
+      <div class="photo"><img src="images/memory-2.jpg" alt="Rehan and Antel together in a mirror photo" loading="lazy" style="object-position:50% 38%"></div>
+      <div class="caption">Side by side, one moment</div>
+    </div>
+<div class="polaroid" style="--ry:-3deg;--rz:1deg">
+      <div class="photo"><img src="images/memory-3.jpg" alt="Rehan mirror selfie" loading="lazy"></div>
+      <div class="caption">A little glimpse of me</div>
+    </div>
+<div class="polaroid" style="--ry:3deg;--rz:-2deg">
+      <div class="photo"><img src="images/memory-4.jpg" alt="Rehan and Antel Hayat memory 4" loading="lazy"></div>
+      <div class="caption">A beautiful day</div>
+    </div>
+<div class="polaroid" style="--ry:-4deg;--rz:-1deg">
+      <div class="photo"><img src="images/memory-5.jpg" alt="Rehan and Antel Hayat memory 5" loading="lazy"></div>
+      <div class="caption">Your lovely smile</div>
+    </div>
+<div class="polaroid" style="--ry:4deg;--rz:2deg">
+      <div class="photo"><img src="images/memory-6.jpg" alt="Rehan and Antel Hayat memory 6" loading="lazy"></div>
+      <div class="caption">A little portrait of me</div>
+    </div>
+</div><div class="gallery-note">Your real photos will replace these placeholders once you share them with me.</div>
+</div></section>
+
+<section id="story"><div class="wrap reveal">
+  <div class="eyebrow">A little story, still being written</div>
+  <h2>Every feeling has a story</h2>
+  <p>Some people become important in ways that are hard to explain. This is a little reminder of what you mean to me.</p>
+  <div class="story-timeline">
+    <div class="timeline-item reveal-left"><div class="timeline-dot"></div><div class="timeline-card glass"><h3>The first thought</h3><p>Somewhere along the way, you became a person I find myself thinking about, even in the middle of an ordinary day.</p></div></div>
+    <div class="timeline-item reveal-right"><div class="timeline-dot"></div><div class="timeline-card glass"><h3>The little things</h3><p>A smile, a conversation, a simple moment — little things can become the memories we hold closest.</p></div></div>
+    <div class="timeline-item reveal-left"><div class="timeline-dot"></div><div class="timeline-card glass"><h3>What I feel today</h3><p>Today, I just want to be honest with you: you are special to me, Antel Hayat, and I am glad I can tell you.</p></div></div>
+    <div class="timeline-item reveal-right"><div class="timeline-dot"></div><div class="timeline-card glass"><h3>The story ahead</h3><p>I hope the next pages are filled with kindness, laughter, trust, and moments that make us both smile.</p></div></div>
+  </div>
+</div></section>
+
+<section id="reasons" class="memories"><div class="wrap reveal">
+  <div class="eyebrow">A few things I appreciate</div><h2>Reasons you are special</h2>
+  <p>Not a checklist, just little things I want you to know I value.</p>
+  <div class="reasons-grid stagger">
+    <div class="reason glass"><div class="num">01</div><h3>Your smile</h3><p>It has a way of making a normal moment feel brighter.</p></div>
+    <div class="reason glass"><div class="num">02</div><h3>Your presence</h3><p>Even a simple conversation can make the day feel lighter.</p></div>
+    <div class="reason glass"><div class="num">03</div><h3>Your individuality</h3><p>I appreciate that you are your own person, with your own dreams and thoughts.</p></div>
+    <div class="reason glass"><div class="num">04</div><h3>The little details</h3><p>Sometimes the smallest things are the ones that stay in the heart longest.</p></div>
+  </div>
+</div></section>
+
+<section id="future"><div class="wrap reveal">
+  <div class="eyebrow">If life gives us the chance</div><h2>Little dreams for tomorrow</h2>
+  <p>No pressure and no perfect promises — just simple hopes for beautiful days.</p>
+  <div class="dreams stagger">
+    <div class="dream glass"><div class="emoji">☕</div><h3>Simple moments</h3><p>Long conversations, shared smiles, and time that never feels wasted.</p></div>
+    <div class="dream glass"><div class="emoji">🌙</div><h3>Being there</h3><p>Supporting each other on difficult days and celebrating the good ones.</p></div>
+    <div class="dream glass"><div class="emoji">🌷</div><h3>Growing together</h3><p>Learning, understanding, and becoming better while respecting each other.</p></div>
+  </div>
+</div></section>
+
+<section id="secret"><div class="wrap reveal">
+  <div class="eyebrow">A little hidden note</div><h2>Something just for you</h2>
+  <p>Tap the envelope to open a small message from Rehan.</p>
+  <div class="envelope" id="envelope" onclick="this.classList.toggle('open')" role="button" tabindex="0" aria-label="Open secret love note">
+    <div class="envelope-box"><div class="envelope-flap"></div><div class="envelope-seal">♡</div><div class="envelope-label">For you, Antel</div></div>
+  </div>
+  <div class="secret-letter glass" id="secretLetter"><p>Antel Hayat, if you ever wonder whether you matter to someone, I hope this page reminds you that you do. Thank you for being you. With care, Rehan. ❤️</p></div>
+</div></section>
+
+<section id="promises"><div class="wrap reveal"><div class="eyebrow">More than beautiful words</div><h2>My promises to you</h2><div class="goldline"></div>
+<div class="promise-grid stagger">
+<div class="promise-card glass"><div class="icon">♡</div><h3>Respect</h3><p>Your feelings, your dreams, and your choices will always matter.</p></div>
+<div class="promise-card glass"><div class="icon">✧</div><h3>Honesty</h3><p>I'll choose truth, trust, and clear communication over empty words.</p></div>
+<div class="promise-card glass"><div class="icon">❀</div><h3>Care</h3><p>I'll keep showing up with patience, kindness, and a listening heart.</p></div>
+</div></div></section>
+<section class="question" id="forever"><div class="question-card glass wrap reveal"><div class="eyebrow">One question, from Rehan</div>
+<h2 class="script">Will you stay<br>with me forever?</h2><p>No pressure, just a little question from someone who cares about you. ❤️</p>
+<div class="answers"><button class="btn" onclick="answer('yes')">Yes, with all my heart ♡</button><button class="btn" onclick="answer('think')">Let me think ✨</button></div>
+<div id="response" aria-live="polite"></div>
+</div></section>
+<footer>MADE WITH LOVE · REHAN → ANTEL HAYAT</footer>
+<script>
+const revealObserver=new IntersectionObserver(entries=>{
+  entries.forEach(entry=>{
+    if(entry.isIntersecting){
+      entry.target.classList.add('visible');
+      revealObserver.unobserve(entry.target);
+    }
+  });
+},{threshold:.14,rootMargin:'0px 0px -45px 0px'});
+document.querySelectorAll('.reveal,.reveal-left,.reveal-right,.stagger').forEach(el=>revealObserver.observe(el));
+
+const progress=document.getElementById('scrollProgress');
+const orbit=document.querySelector('.orbit');
+const heroInner=document.querySelector('.hero-inner');
+const glow=document.getElementById('cursorGlow');
+let ticking=false;
+function updateScroll(){
+  const max=document.documentElement.scrollHeight-innerHeight;
+  const pct=max>0?(scrollY/max)*100:0;
+  progress.style.width=pct+'%';
+  const y=scrollY;
+  if(orbit) orbit.style.transform=`translateY(${y*.12}px) rotate(${y*.035}deg)`;
+  if(heroInner && y<innerHeight) heroInner.style.transform=`translateY(${y*.18}px)`;
+  ticking=false;
+}
+addEventListener('scroll',()=>{if(!ticking){requestAnimationFrame(updateScroll);ticking=true}},{passive:true});
+updateScroll();
+
+addEventListener('pointermove',e=>{
+  if(glow){glow.style.left=e.clientX+'px';glow.style.top=e.clientY+'px'}
+},{passive:true});
+
+const lightbox=document.getElementById('lightbox');
+const lightboxImage=document.getElementById('lightboxImage');
+function closeLightbox(){lightbox.classList.remove('show');lightboxImage.src='';}
+document.querySelectorAll('.gallery .photo img').forEach(img=>{
+  img.addEventListener('click',()=>{lightboxImage.src=img.src;lightboxImage.alt=img.alt;lightbox.classList.add('show')});
+});
+document.getElementById('lightboxClose').addEventListener('click',closeLightbox);
+lightbox.addEventListener('click',e=>{if(e.target===lightbox)closeLightbox()});
+addEventListener('keydown',e=>{if(e.key==='Escape')closeLightbox()});
+const envelope=document.getElementById('envelope');
+if(envelope){envelope.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();envelope.classList.toggle('open')}})}
+function answer(v){
+  document.getElementById('response').textContent=v==='yes'
+    ?'You just made my heart smile. ❤️'
+    :'Take all the time you need. Your feelings matter. ♡';
+}
+function heart(){
+  const h=document.createElement('div');h.className='heart-float';h.textContent=Math.random()>.5?'♡':'♥';
+  h.style.left=Math.random()*100+'vw';h.style.fontSize=(12+Math.random()*22)+'px';
+  h.style.animationDuration=(7+Math.random()*7)+'s';h.style.setProperty('--drift',(Math.random()*100-50)+'px');
+  document.body.appendChild(h);setTimeout(()=>h.remove(),14500);
+}
+setInterval(heart,950);
+
+document.querySelectorAll('.polaroid').forEach(card=>{
+  card.addEventListener('mousemove',e=>{
+    if(innerWidth<700)return;
+    const r=card.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;
+    card.style.transform=`rotateY(${x*16}deg) rotateX(${-y*16}deg) translateY(-9px) scale(1.025)`;
+  });
+  card.addEventListener('mouseleave',()=>card.style.transform='');
+});
+
+const tiltCard=document.querySelector('.message-card');
+if(tiltCard){
+  tiltCard.addEventListener('mousemove',e=>{
+    if(innerWidth<700)return;
+    const r=tiltCard.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;
+    tiltCard.style.transform=`perspective(1000px) rotateY(${x*3}deg) rotateX(${-y*3}deg)`;
+  });
+  tiltCard.addEventListener('mouseleave',()=>tiltCard.style.transform='');
+}
+</script></body></html>
